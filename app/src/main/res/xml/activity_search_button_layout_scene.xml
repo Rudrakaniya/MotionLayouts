@@ -8,7 +8,7 @@
         motion:constraintSetStart="@id/start"
         motion:duration="200">
 
-        <OnClick motion:targetId="@+id/imgLocation_A" />
+        <OnClick motion:targetId="@+id/locationButtonLayout" />
        <KeyFrameSet>
            <KeyAttribute
                motion:motionTarget="@+id/imgLocation_A"
@@ -18,8 +18,8 @@
            <KeyAttribute
                motion:motionTarget="@+id/imgLocation_A"
                motion:framePosition="20"
-               android:scaleX="1.1"
-               android:scaleY="1.1" />
+               android:scaleX="1.2"
+               android:scaleY="1.2" />
            <KeyAttribute
                motion:motionTarget="@+id/imgLocation_A"
                motion:framePosition="90"
