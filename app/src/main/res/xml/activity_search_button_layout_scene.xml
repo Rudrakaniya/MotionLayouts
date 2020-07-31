@@ -6,6 +6,7 @@
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
+        motion:autoTransition="animateToEnd"
         motion:duration="200">
 
         <OnClick motion:targetId="@+id/locationButtonLayout" />
