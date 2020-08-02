@@ -8,7 +8,7 @@
         motion:constraintSetStart="@id/start"
         motion:duration="700">
 
-        <OnClick motion:targetId="@+id/imageView" />
+<!--        <OnClick motion:targetId="@+id/imageView" />-->
         <KeyFrameSet >
             <KeyAttribute
                 motion:motionTarget="@+id/imageView"

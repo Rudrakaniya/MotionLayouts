@@ -92,6 +92,58 @@
         app:layout_constraintEnd_toEndOf="@+id/textViewLayout"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    <!--    <com.google.android.material.card.MaterialCardView-->
+    <!--        android:id="@+id/materialCard"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="220dp"-->
+    <!--        android:elevation="18dp"-->
+    <!--        app:cardBackgroundColor="@color/colorWhiteGrey"-->
+    <!--        android:layout_margin="16dp"-->
+    <!--        app:cardCornerRadius="8dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textViewLayout">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/dateTextView"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="16dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:text="July 25, 3:14 PM"-->
+    <!--            android:textColor="@color/colorPrimaryDark" />-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_margin="32dp"-->
+    <!--            android:orientation="horizontal">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/tempTV"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginBottom="32dp"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:text="16°C"-->
+    <!--                android:textSize="52dp"-->
+    <!--                android:layout_weight="1"/>-->
+
+    <!--            <androidx.appcompat.widget.AppCompatImageView-->
+    <!--                android:id="@+id/weatherSymbolIV"-->
+    <!--                android:layout_width="150dp"-->
+    <!--                android:layout_height="150dp"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:scaleType="fitCenter"-->
+    <!--                android:src="@drawable/cloud_temp"-->
+    <!--                android:layout_weight="1"/>-->
+
+
+    <!--        </LinearLayout>-->
+
+    <!--    </com.google.android.material.card.MaterialCardView>-->
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"

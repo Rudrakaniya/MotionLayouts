@@ -9,7 +9,7 @@
         motion:autoTransition="animateToEnd"
         motion:duration="200">
 
-        <OnClick motion:targetId="@+id/locationButtonLayout" />
+<!--        <OnClick motion:targetId="@+id/locationButtonLayout" />-->
        <KeyFrameSet>
            <KeyAttribute
                motion:motionTarget="@+id/imgLocation_A"
